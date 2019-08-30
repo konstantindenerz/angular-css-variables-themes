@@ -1,0 +1,3 @@
+<div class="theme-switcher">
+  <button *ngFor="let theme of themes" (click)="apply(theme)" [class.active]="currentTheme === theme">{{theme}}</button>
+</div>
